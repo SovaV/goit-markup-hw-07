@@ -20,7 +20,6 @@
 .bot-nav {
   padding: 0px;
   min-width: 231px;
-
   font-style: normal;
   font-weight: normal;
   line-height: 1.7;
@@ -38,14 +37,13 @@
 
 .bot-nav__link {
   text-decoration: none;
-
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.bot-nav__link:hover,
-.bot-nav__link:focus {
-  color: #2196f3;
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
 
 .bot-info {
@@ -77,13 +75,14 @@
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    background-color: #2196f3;
+    fill: #ffffff;
+  }
 }
 
-.bot-social__icon-link:focus,
-.bot-social__icon-link:hover {
-  background-color: #2196f3;
-  fill: #ffffff;
-}
 .subscribe {
   display: block;
 }
@@ -112,10 +111,10 @@
   border-radius: 4px;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.sub-label__input-footer:hover,
-.sub-label__input-footer:focus {
-  border-color: #2196f3;
-  outline: none;
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+    outline: none;
+  }
 }

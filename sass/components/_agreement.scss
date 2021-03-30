@@ -1,0 +1,35 @@
+.agreement-filed {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  justify-content: space-evenly;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.agreement-filed__check-icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background-image: url(../images/Vector.svg);
+
+  .agreement-filed--checkbox:checked + & {
+    background-color: #2196f3;
+    background-image: url(../images/icon-check.svg);
+    background-size: contain;
+    background-origin: border-box;
+    border-color: #2196f3;
+  }
+  .agreement-filed--checkbox:focus + & {
+    box-shadow: var(--card-shadow);
+  }
+}
+.contract-link {
+  color: #2196f3;
+}
