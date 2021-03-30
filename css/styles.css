@@ -94,6 +94,7 @@ ol {
   overflow: hidden;
 }
 /* ======== КНОПКА ======== */
+/*=== button ===*/
 .button {
   display: flex;
   margin-left: auto;
@@ -118,7 +119,6 @@ ol {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button:hover,
 .button:focus {
   background-color: #2196f3;
@@ -141,23 +141,20 @@ ol {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button--primary:hover,
 .button--primary:focus {
   background-color: #188ce8;
 }
-
 .button.current {
   background-color: #2196f3;
   color: #ffffff;
 }
-
 .button__icon-send {
   margin-left: 10px;
 }
 
 /* ======== Логотип ========*/
-
+/*=== Logo === */
 .navigator__logo {
   display: block;
   margin-right: 93px;
@@ -193,6 +190,7 @@ ol {
 }
 
 /* ======== Картки ======== */
+/* card-set */
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -271,6 +269,7 @@ ol {
   border: 1px solid #2196f3;
 }
 /* ======================== ШАПКА ======================== */
+/* ==== header ==== */
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -364,7 +363,7 @@ ol {
 }
 
 /* ======================== ГЕРОЙ ======================== */
-/* hero */
+/*==== hero ====*/
 .hero {
   margin-left: auto;
   margin-right: auto;
@@ -399,7 +398,7 @@ ol {
 
 /* ======================== МОДАЛКА ======================== */
 
-/* backdrop  */
+/*====  backdrop ==== */
 .backdrop {
   position: fixed;
   top: 0;
@@ -618,6 +617,7 @@ textarea {
 }
 
 /* ======================== НАШИ ПРОЕКТЫ ======================== */
+/* ==== our-project ====*/
 .card-project {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -676,7 +676,7 @@ textarea {
 }
 
 /* ======================== ЧЕМ МЫ ЗАНИМАЕМСЯ ======================== */
-
+/* work */
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -706,7 +706,7 @@ textarea {
 }
 
 /* ======================== НАША КОМАНДА ======================== */
-
+/* team  */
 .team {
   background-color: #f5f4fa;
 }

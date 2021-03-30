@@ -5,14 +5,20 @@
 @import './basse/container';
 
 @import './components/title';
+@import './components/button';
 @import './components/backdrop';
 @import './components/modal';
 @import './components/model.btn-close';
-@import './components/model-menu';
-@import './components/Logo.scss';
+@import './components/logo-name';
 @import './components/card-set';
+@import './components/client-conteiner';
 
 @import './layout/header';
 @import './layout/hero';
 @import './layout/portfolio';
 @import './layout/features';
+@import './layout/our-project';
+@import './layout/work';
+@import './layout/team';
+@import './layout/footer';
+@import './layout/modal-window';

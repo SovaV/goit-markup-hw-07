@@ -1,0 +1,27 @@
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  position: relative;
+}
+
+.lable {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(47, 48, 58, 0.8);
+}
+.lable__title--job {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
