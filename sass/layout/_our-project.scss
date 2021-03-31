@@ -1,36 +1,28 @@
-.card-project {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:focus,
-  &:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
-  }
-}
-
 .animation {
   position: relative;
   overflow: hidden;
 }
 .animation__overlay {
   position: absolute;
-  transform: translateY(100%);
-  top: 0;
-  opacity: 0;
-  padding: 63px 23px;
-  max-width: 100%;
+  bottom: 0;
   height: 100%;
-  font-weight: normal;
+  transform: translateY(100%);
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
+  opacity: 0;
+  max-width: 100%;
   letter-spacing: 0.03em;
+  padding: 63px 24px;
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   .card-project__link:focus &,
   .card-project__link:hover & {
-    transform: translateX(0);
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
