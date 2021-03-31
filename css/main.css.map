@@ -10,7 +10,7 @@
         "../sass/components/_title.scss",
         "../sass/components/_button.scss",
         "../sass/components/_backdrop.scss",
-        "../sass/components/_modal.scss",
+        "../sass/components/_modal-windows.scss",
         "../sass/components/_model.btn-close.scss",
         "../sass/components/_logo-name.scss",
         "../sass/components/_card-set.scss",
